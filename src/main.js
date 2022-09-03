@@ -1,6 +1,18 @@
 import { example } from './data.js';
-// import data from './data/lol/lol.js';
-import data from './data/pokemon/pokemon.js';
-// import data from './data/rickandmorty/rickandmorty.js';
+import data from './data/harrypotter/data.js';
 
-console.log(example, data);
+
+const personagens = data.characters;
+
+console.log(personagens)
+function printCards(hp) {
+    document.getElementById('print').innerHTML = hp.map((key) => 
+        `  
+            <div>
+                <h2>Name: ${key.name}</h2>          
+            </div>
+        `    
+    )
+}
+
+printCards(personagens)

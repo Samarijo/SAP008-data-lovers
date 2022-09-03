@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Harry Potter';
+    src: url('./fonts/HARRYP__.TTF') format('truetype');
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    
+}
+
+.header-container{
+    display: flex;
+    background-color:black;
+    height: 27vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+}
+
+
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.welcome-container {
+    text-align:justify;
+    background-color: #dc9f03c9;
+    color: white;
+    border-radius: 25px;
+    padding: 0.10rem 1.2rem;
+    max-width: 36%;
+}
+
+.welcome-title {
+    text-align: center;
+    font-size: 2.0rem;
+    font-weight: 150;
+    font-family: "Harry Potter";
+    color: #193833;
+    text-shadow: 3px 3px #1616162e;
+}
+
+.welcome-description {
+    margin-top: -0.8rem;
+    margin-bottom: 2rem;
+    font-size: 1.0rem;
+    color: #193833;
+}
+
+.welcome-text {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+}
+
+.navigator-container{
+    display: flex;
+    background-color:black;
+    height: 10vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+}
+
+.btn-nav{
+    text-align: center;
+    padding: 0.2rem;
+    margin-left: 0.3rem;
+    border-width: 3px;
+    border-radius: 5px;
+    font-family: 'Harry Potter';
+    font-weight: lighter;
+    font-size: 1.0rem;
+    text-align: center;
+    text-shadow: 2px 1px #1616162e;
+    cursor: pointer;
+    background-color: #700505;
+    border-color: grey;
+    color:aliceblue;
+    text-shadow: 2px 1px #1616162e;  
+}

@@ -7,3 +7,8 @@ export const example = () => {
 export const anotherExample = () => {
   return 'OMG';
 };
+books
+characters
+funFact
+spells
+potions
