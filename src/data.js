@@ -1,14 +1,38 @@
-// estas funciones son de ejemplo
+export function filterHouse(data,house){
+    return data.filter(character => character.house === house)
+}
 
-export const example = () => {
-  return 'example';
-};
+export function sortByName(characters, order){
+    const charactersCopy = [...characters]
+    const sorted = charactersCopy.sort((a,b) => {
+        if (a.name < b.name){
+            return -1
+        }
 
-export const anotherExample = () => {
-  return 'OMG';
-};
-books
-characters
-funFact
-spells
-potions
+        if(a.name > b.name){
+            return 1
+        }
+
+        return 0   
+    })
+
+    if (order === "asc"){
+        return sorted
+    }
+
+    else if (order === "desc"){
+        return sorted.reverse()
+    }
+}
+
+export function filterBySearch(data,name){
+    return data.filter(character => character.name === name)
+
+}
+
+
+
+
+
+
+
