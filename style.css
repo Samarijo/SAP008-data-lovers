@@ -1,0 +1,235 @@
+@font-face {
+    font-family: 'Harry Potter';
+    src: url('./fonts/HARRYP__.TTF') format('truetype');
+}
+
+.logo-container{
+    display: flex;
+    background-color:black;
+    height: 30vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    }
+
+.navigator-container{
+    display: flex;
+    background-color:black;
+    height: 10vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-nav{
+    padding: 0.2rem;
+    margin-left: 0.3rem;   
+    text-align: center;
+    border-width: 3px;
+    border-radius: 5px;
+    font-family: 'Harry Potter';
+    font-weight: lighter;
+    font-size: 1.0rem;
+    text-align: center;
+    text-shadow: 2px 1px #1616162e;
+    cursor: pointer;
+    background-color: #700505;
+    border-color: grey;
+    color:aliceblue;
+    text-shadow: 2px 1px #1616162e;  
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    
+}
+
+.main-home {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 60%;
+    background:#DC9E00;
+}
+
+.welcome-container {
+    text-align:justify;
+    color: white;
+    padding: 0.10rem 1.2rem;
+}
+
+.welcome-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 140;
+    font-family: "Harry Potter";
+    color: #193833;
+    text-shadow: 3px 3px #1616162e;
+}
+
+.welcome-description {
+    margin-top: -0.8rem;
+    margin-bottom: 2rem;
+    font-size: 1.0rem;
+    color: #193833;
+    font-family: "Arial"
+}
+
+.welcome-text {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    font-family: "Arial";
+    color:#193833;
+    font-weight: bold;
+}
+
+.dados-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45rem;
+    height: 40rem;
+    padding: 0.10rem 1.2rem;
+    
+
+}
+
+.characters-title {
+    
+    
+    width: 100%;    
+    padding-top: 15px;   
+    background: #700505;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 140;
+    font-family: "Harry Potter";
+    color: #F7F7F7;
+    text-shadow: 3px 3px black;   
+}
+
+.text-container {
+    display: flex;
+    background-color: #F7F7F7;
+    height: 10vh;
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    justify-content: center;
+    text-align: center;
+    font-family: "Roboto";
+    color: #193833;
+    font-size: 1rem;
+    margin-top: -0.5rem;
+    margin-bottom: 1.1rem;
+}
+
+.filter-container {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    background-color:#DC9E00;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.filter-flex{
+    padding: 0.5rem;
+    margin-left: 0.3rem;   
+    text-align: center;
+    border-width: 3px;
+    border-radius: 5px;
+    font-family: 'Harry Potter';
+    font-weight: lighter;
+    font-size: 15px;
+    text-align: center;
+    text-shadow: 2px 1px #1616162e;
+    cursor: pointer;
+    background-color: #700505;
+    border-color: grey;
+    color:aliceblue;
+    text-shadow: 2px 1px #1616162e;
+}
+
+.search{
+    padding: 0.5rem;
+    margin-left: 0.3rem;   
+    text-align: center;
+    border-width: 3px;
+    border-radius: 5px;
+    font-family: "Arial";
+    font-weight: lighter;
+    font-size: 15px;
+    text-align: left;
+    text-shadow: 2px 1px #1616162e;
+    cursor: pointer;
+    background-color: #700505;
+    border-color: grey;
+    color:aliceblue;
+    text-shadow: 2px 1px #1616162e;
+}
+
+
+.calcule{
+    position: relative;
+    margin-top: 2rem;
+    text-align: center;
+    font-family: "Nunito";
+    color: #F7F7F7;
+    font-size: 1.1rem;
+    margin-bottom: 1.1rem;
+    padding: 0.1rem;
+    margin-inline: 2rem;
+}
+
+.modal-characters-content {
+    overflow-y: scroll;
+    font-size: 1.0rem;
+    font-family: "Arial";
+    color: #193833;;
+    width: 90%;
+    height: 600px;
+    background: #a07b1e;
+    padding: 15px;
+    font-weight: bold;
+}
+
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #700505;
+    height: 3.1rem;
+    padding-bottom: 0.2rem;
+    min-width: 100%;
+    bottom: 0;
+    gap: 0.5rem;
+}
+
+.footer-title,
+.footer-link {
+    
+    font-weight: 100;
+    font-size: 1.0rem;
+    text-shadow: 3px 2px #1616162e;
+    color: white;
+    
+}
