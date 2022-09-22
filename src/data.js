@@ -9,7 +9,7 @@ export function sortByName(characters, order){
             return -1
         }
 
-        if(a.name > b.name){
+        if (a.name > b.name){
             return 1
         }
 
@@ -26,9 +26,12 @@ export function sortByName(characters, order){
 }
 
 export function filterBySearch(data,name){
-    return data.filter(character => character.name === name)
+    const nameInLowerCase = name.toLowerCase()
+    return data
+        .filter(character => character.name.toLowerCase().includes(nameInLowerCase))
 
 }
+
 
 
 

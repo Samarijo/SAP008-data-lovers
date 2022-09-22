@@ -83,11 +83,15 @@ body {
     margin-bottom: 2rem;
     font-size: 1.0rem;
     color: #193833;
+    font-family: "Arial"
 }
 
 .welcome-text {
     margin-bottom: 1.5rem;
     font-size: 1rem;
+    font-family: "Arial";
+    color:#193833;
+    font-weight: bold;
 }
 
 .dados-container{
@@ -153,7 +157,7 @@ body {
     border-radius: 5px;
     font-family: 'Harry Potter';
     font-weight: lighter;
-    font-size: 18px;
+    font-size: 15px;
     text-align: center;
     text-shadow: 2px 1px #1616162e;
     cursor: pointer;
@@ -163,10 +167,19 @@ body {
     text-shadow: 2px 1px #1616162e;
 }
 
-.searh{
-    text-align:left;
+.search{
+    padding: 0.5rem;
+    margin-left: 0.3rem;   
+    text-align: center;
     border-width: 3px;
     border-radius: 5px;
+    font-family: "Arial";
+    font-weight: lighter;
+    font-size: 15px;
+    text-align: left;
+    text-shadow: 2px 1px #1616162e;
+    cursor: pointer;
+    background-color: #700505;
     border-color: grey;
     color:aliceblue;
     text-shadow: 2px 1px #1616162e;

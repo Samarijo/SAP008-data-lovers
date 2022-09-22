@@ -7,7 +7,7 @@ export default {
       "death": null,
       "species": "Human",
       "ancestry": null,
-      "gender": "Male",
+      "gender": "Male", 
       "hair_color": null,
       "eye_color": null,
       "wand": null,
