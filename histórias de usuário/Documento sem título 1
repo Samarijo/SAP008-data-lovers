@@ -1,0 +1,14 @@
+História de usuário 1: "Eu, como aluno/visitante quero ter acesso as informações sobre os personagens da saga Harry Potter para ter um melhor desempenho na gincana."
+- Clicando no nome de cada personagem, o usuário poderá acessar informações como ,data de nascimento, quando morreu, espécie, ancestralidade, gênero, patrono, casa e em qual livro ele aparece.
+
+História de usuário 2: "Eu, como aluno/visitante quero conseguir filtrar os personagens pelas casas, para personalizar a minha busca."
+- O usuário poderá escolher ver apenas os personagens referentes à casa que ele escolheu.
+
+História de usuário 3: "Eu, como aluno/visitante quero saber qual casa possui mais membros para aumentar meu conhecimento sobre o mundo harry potter."
+- Quando o usuário optar por filtrar os personagens pela casa, ela poderá saber quantos membros cada casa possui.
+
+História de usuário 4: "Eu, como aluno/visitante quero ordenar os personagens por ordem alfabética para organizar melhor as informações."
+- O usuário poderá organizar a ordem em que os personagens aparecem por ordem alfábetica cresente ou descresente.
+
+História de usuário 5 "Eu, como aluno/visitante quero poder acessar os personagens pelo nome para facilitar a minha busca."
+- Por um campo de busca o usuário poderá procurar o personagem digitando o nome.
