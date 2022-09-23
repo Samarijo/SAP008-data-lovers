@@ -233,3 +233,10 @@ body {
     color: white;
     
 }
+
+@media (min-width: 800px) {
+    .main-home {
+        max-width: 90%;
+    }
+
+}
