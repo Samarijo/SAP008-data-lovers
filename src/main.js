@@ -33,14 +33,12 @@ function modal(personagem){
         <p>Patronus: ${personagem.patronus}</p>
         <p>House: ${personagem.house}</p>
         <p>Books featured in: ${personagem.books_featured_in}</p>
-        <button id="fechar-modal" class="filter-flex" > fechar </button>
-
+        <button id="fechar-modal" class="filter-flex" > Fechar </button>
     </div>
-`
+                            `
     const fechar = modalElement.querySelector("#fechar-modal")
     fechar.addEventListener("click", ()=> {
         modalElement.style.display = "none"
-
     })
 }
 
