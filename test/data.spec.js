@@ -1,4 +1,4 @@
-import { filterHouse, sortByName, filterBySearch } from '../src/data.js';
+import { filterHouse, sortByName, filterBySearch, calculoAgregado } from '../src/data.js';
 
 const Gryffindor = {
       "name": "Euan Abercrombie",
@@ -50,7 +50,7 @@ describe('filterHouse', () => {
   });
 
   it('deve filtrar o personagem pela sua casa', () => {
-    expect(filterHouse(objHouse,"Gryffindor", "Euan Abercrombie")).toEqual([Gryffindor]);
+    expect(filterHouse(objHouse,"Gryffindor")).toEqual([Gryffindor]);
   });
 });
 
@@ -77,5 +77,17 @@ describe('filterBySearch', () => {
 
   it('deve filtrar o personagem pelo nome digitado', () => {
     expect(filterBySearch(filtroSearch,"Euan Abercrombie")).toEqual([Gryffindor]);
+  });
+});
+
+describe('calculoAgregado', () => {
+  const calcule = ["Euan Abercrombie","Stewart Ackerley","Terence Higgs"]
+  it('é função', () => {
+
+    expect(typeof calculoAgregado).toBe('function');
+  });
+
+  it('deve retornar a quantidade de membros de cada casa', () => {
+    expect(calculoAgregado(calcule, "Gryffindor")).toEqual(3);
   });
 });

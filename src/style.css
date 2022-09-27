@@ -101,13 +101,10 @@ body {
     width: 45rem;
     height: 40rem;
     padding: 0.10rem 1.2rem;
-    
-
+    position: relative;
 }
 
-.characters-title {
-    
-    
+.characters-title {   
     width: 100%;    
     padding-top: 15px;   
     background: #700505;
@@ -187,22 +184,19 @@ body {
 
 
 .calcule{
-    position: relative;
-    margin-top: 2rem;
     text-align: center;
-    font-family: "Nunito";
-    color: #F7F7F7;
+    font-family: "Arial";
+    color: #193833;
     font-size: 1.1rem;
-    margin-bottom: 1.1rem;
-    padding: 0.1rem;
-    margin-inline: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
 }
 
 .modal-characters-content {
     overflow-y: scroll;
     font-size: 1.0rem;
     font-family: "Arial";
-    color: #193833;;
+    color: #193833;
     width: 90%;
     height: 600px;
     background: #a07b1e;
@@ -210,6 +204,23 @@ body {
     font-weight: bold;
 }
 
+.modal-estilo {
+    height: 350px;
+    width: 500px;
+    background-color: #DC9E00;
+    border: 500px;
+    border-color: #193833;
+    border-radius: 2%;
+    position: absolute;
+    top: 40%;
+    display: none;
+    font-size: 1.0rem;
+    font-family: "Arial";
+    color: #193833;
+    font-weight: bold;
+    padding: 15px;
+
+}
 
 
 .footer {
@@ -234,9 +245,25 @@ body {
     
 }
 
-@media (max-width: 800px) {
+@media (min-width: 800px) {
     .main-home {
         max-width: 90%;
+    }
+
+    .welcome-description {
+        margin-top: -0.8rem;
+        margin-bottom: 2rem;
+        font-size: 0.8rem;
+        color: #193833;
+        font-family: "Arial"
+    }
+
+    .welcome-text {
+        margin-bottom: 1.5rem;
+        font-size: 0.8rem;
+        font-family: "Arial";
+        color:#193833;
+        font-weight: bold;
     }
 
 }

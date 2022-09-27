@@ -13,7 +13,7 @@ export function sortByName(characters, order){
             return 1
         }
 
-        return 0   
+        
     })
 
     if (order === "asc"){
@@ -31,6 +31,17 @@ export function filterBySearch(data,name){
         .filter(character => character.name.toLowerCase().includes(nameInLowerCase))
 
 }
+
+//                const personagens, "house", "const housefilter.value"
+export const calculoAgregado =  (data, key, value) => {
+    let qtd = data.reduce((total, valor) => {
+      if (valor[key] === value) {
+        return total + 1;
+      }
+      return total;
+    }, 0);
+    return Number(qtd);
+  }
 
 
 
