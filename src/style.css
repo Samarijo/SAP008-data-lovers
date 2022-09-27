@@ -143,7 +143,6 @@ body {
     height: 10vh;
     align-items: center;
     justify-content: space-around;
-
 }
 
 .filter-flex{
@@ -208,18 +207,21 @@ body {
     height: 350px;
     width: 500px;
     background-color: #DC9E00;
-    border: 500px;
-    border-color: #193833;
+    border: 5px solid #193833;
     border-radius: 2%;
     position: absolute;
-    top: 40%;
+    top: 35%;
     display: none;
     font-size: 1.0rem;
     font-family: "Arial";
     color: #193833;
     font-weight: bold;
-    padding: 15px;
+    padding: 20px;
+}
 
+.modal-estilo .filter-flex {
+    margin: 0 auto;
+    display: block;
 }
 
 
@@ -242,8 +244,7 @@ body {
     font-size: 1.0rem;
     text-shadow: 3px 2px #1616162e;
     color: white;
-    
-}
+ }
 
 @media (min-width: 800px) {
     .main-home {

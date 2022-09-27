@@ -20,8 +20,9 @@ function printCards(hp) {
 printCards(personagens)
 
 function modal(personagem){
-    document.getElementById("modal-click").style.display = "block"
-    document.getElementById("modal-click").innerHTML = `  
+    const modalElement = document.getElementById("modal-click")
+    modalElement.style.display = "block"
+    modalElement.innerHTML = `  
     <div>
         <p>Name: ${personagem.name}</p>
         <p>Birth: ${personagem.birth}</p>
@@ -32,11 +33,15 @@ function modal(personagem){
         <p>Patronus: ${personagem.patronus}</p>
         <p>House: ${personagem.house}</p>
         <p>Books featured in: ${personagem.books_featured_in}</p>
+        <button id="fechar-modal" class="filter-flex" > fechar </button>
+
     </div>
 `
-    const fechar = document.createElement("div")
-    fechar.innerHTML = `<p id="fechar-modal"> X </p>`
-    fechar.addEventListener("click", )
+    const fechar = modalElement.querySelector("#fechar-modal")
+    fechar.addEventListener("click", ()=> {
+        modalElement.style.display = "none"
+
+    })
 }
 
 function filterByHouse(e) {
