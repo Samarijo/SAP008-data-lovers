@@ -11,9 +11,7 @@ export function sortByName(characters, order){
 
         if (a.name > b.name){
             return 1
-        }
-
-        
+        } 
     })
 
     if (order === "asc"){
@@ -29,10 +27,8 @@ export function filterBySearch(data,name){
     const nameInLowerCase = name.toLowerCase()
     return data
         .filter(character => character.name.toLowerCase().includes(nameInLowerCase))
-
 }
 
-//                const personagens, "house", "const housefilter.value"
 export const calculoAgregado =  (data, key, value) => {
     let qtd = data.reduce((total, valor) => {
       if (valor[key] === value) {
