@@ -201,6 +201,7 @@ body {
     background: #a07b1e;
     padding: 15px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .modal-estilo {
