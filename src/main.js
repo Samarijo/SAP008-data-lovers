@@ -25,14 +25,14 @@ function modal(personagem){
     modalElement.innerHTML = `  
     <div>
         <p>Name: ${personagem.name}</p>
-        <p>Birth: ${personagem.birth}</p>
-        <p>Death: ${personagem.death}</p>
-        <p>Species: ${personagem.species}</p>
-        <p>Ancestry: ${personagem.ancestry}</p>
-        <p>Gender: ${personagem.gender}</p>
-        <p>Patronus: ${personagem.patronus}</p>
-        <p>House: ${personagem.house}</p>
-        <p>Books featured in: ${personagem.books_featured_in}</p>
+        <p>Birth: ${personagem.birth === null ? 'sem informação' : personagem.birth}</p>
+        <p>Death: ${personagem.death === null ? 'sem informação' : personagem.death}</p>
+        <p>Species: ${personagem.species === null ? 'sem informação' : personagem.species}</p>
+        <p>Ancestry: ${personagem.ancestry === null ? 'sem informação' : personagem.ancestry}</p>
+        <p>Gender: ${personagem.gender === null ? 'sem informação' : personagem.gender}</p>
+        <p>Patronus: ${personagem.patronus === null ? 'sem informação' : personagem.patronus}</p>
+        <p>House: ${personagem.house === null ? 'sem informação' : personagem.house}</p>
+        <p>Books featured in: ${personagem.books_featured_in === null ? 'sem informação' : personagem.books_featured_in}</p>
         <button id="fechar-modal" class="filter-flex" > Fechar </button>
     </div>
                             `

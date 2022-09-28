@@ -2,7 +2,7 @@ export function filterHouse(data,house){
     return data.filter(character => character.house === house)
 }
 
-export function sortByName(characters, order){
+export function sortByName(characters, order){  
     const charactersCopy = [...characters]
     const sorted = charactersCopy.sort((a,b) => {
         if (a.name < b.name){
