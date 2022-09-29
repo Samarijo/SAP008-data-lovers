@@ -55,8 +55,8 @@ const houseFilter = document.getElementById("inputFilter")
 houseFilter.addEventListener ("change", filterByHouse)
 
 function sortCharacters (e) {
-    const order = e.target.value
     document.getElementById('houses-members').innerHTML = ``
+    const order = e.target.value
     const sorted = sortByName(personagens, order)
     printCards(sorted)
 }
@@ -65,8 +65,8 @@ const sortSelect = document.getElementById("sort")
 sortSelect.addEventListener("change", sortCharacters)
 
 function search(e) {
-    const nameInserido = e.target.value
     document.getElementById('houses-members').innerHTML = ``
+    const nameInserido = e.target.value
     const busca = filterBySearch(personagens, nameInserido)
     printCards(busca)
 
